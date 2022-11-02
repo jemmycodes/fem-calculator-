@@ -457,7 +457,7 @@ video {
   font-size: 1.875rem;
   line-height: 2.25rem;
   --tw-text-opacity: 1;
-  color: hsl(223 31% 20% / var(--tw-text-opacity));
+  color: hsl(221 14% 31% / var(--tw-text-opacity));
 }
 
 .delete {
@@ -476,6 +476,12 @@ video {
   text-transform: uppercase;
   --tw-text-opacity: 1;
   color: hsl(30 25% 89% / var(--tw-text-opacity));
+}
+
+.number-shadow {
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: hsl(28 16% 65% / var(--tw-bg-opacity));
 }
 
 *, ::before, ::after {
@@ -619,6 +625,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -631,6 +641,10 @@ video {
   display: grid;
 }
 
+.h-\[95\%\] {
+  height: 95%;
+}
+
 .max-h-fit {
   max-height: -webkit-fit-content;
   max-height: -moz-fit-content;
@@ -641,16 +655,8 @@ video {
   min-height: 100vh;
 }
 
-.min-w-\[20rem\] {
-  min-width: 20rem;
-}
-
-.min-w-\[18\.75rem\] {
-  min-width: 18.75rem;
-}
-
-.max-w-\[18\.75rem\] {
-  max-width: 18.75rem;
+.w-\[18\.75rem\] {
+  width: 18.75rem;
 }
 
 .grid-cols-4 {
@@ -683,9 +689,19 @@ video {
   background-color: hsl(223 31% 20% / var(--tw-bg-opacity));
 }
 
+.bg-blueKeyShadow {
+  --tw-bg-opacity: 1;
+  background-color: hsl(224 28% 35% / var(--tw-bg-opacity));
+}
+
 .bg-keyBackground {
   --tw-bg-opacity: 1;
   background-color: hsl(225 21% 49% / var(--tw-bg-opacity));
+}
+
+.bg-keyShadow {
+  --tw-bg-opacity: 1;
+  background-color: hsl(6 70% 34% / var(--tw-bg-opacity));
 }
 
 .bg-keyBackgroundToggle {
@@ -695,10 +711,6 @@ video {
 
 .p-5 {
   padding: 1.25rem;
-}
-
-.p-8 {
-  padding: 2rem;
 }
 
 .py-8 {

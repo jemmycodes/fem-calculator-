@@ -12,10 +12,14 @@
   }
 
   .number-keys {
-    @apply bg-lightGrayishOrange text-toggleBackgroundKeypadBackground py-3 text-3xl rounded-lg flex justify-center items-center;
+    @apply bg-lightGrayishOrange text-verydarkGrayishBlue py-3 text-3xl rounded-lg flex justify-center items-center;
   }
 
   .delete {
     @apply uppercase text-lightGrayishOrange flex justify-center items-center bg-keyBackground py-3 px-5 text-lg rounded-lg;
+  }
+
+  .number-shadow {
+    @apply bg-grayishOrange rounded-lg;
   }
 }
