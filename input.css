@@ -12,7 +12,7 @@
   }
 
   .number-keys {
-    @apply bg-lightGrayishOrange text-verydarkGrayishBlue py-3 text-3xl rounded-lg flex justify-center items-center;
+    @apply bg-lightGrayishOrange text-verydarkGrayishBlue py-3 text-3xl rounded-lg flex justify-center items-center md:px-4 md:py-1;
   }
 
   .delete {

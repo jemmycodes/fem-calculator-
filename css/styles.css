@@ -460,6 +460,15 @@ video {
   color: hsl(221 14% 31% / var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  .number-keys {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+}
+
 .delete {
   display: flex;
   align-items: center;
@@ -655,8 +664,12 @@ video {
   min-height: 100vh;
 }
 
-.w-\[18\.75rem\] {
-  width: 18.75rem;
+.min-w-\[18\.75rem\] {
+  min-width: 18.75rem;
+}
+
+.max-w-\[30rem\] {
+  max-width: 30rem;
 }
 
 .grid-cols-4 {
