@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .screen-box {
+    @apply bg-screenBackground py-5 px-4 rounded-xl flex justify-end items-center mb-7;
+  }
+
+  .diff-keys {
+    @apply flex justify-center items-center  py-3 px-5 uppercase text-xl rounded-lg col-span-2;
+  }
+
+  .number-keys {
+    @apply bg-lightGrayishOrange text-toggleBackgroundKeypadBackground py-3 text-3xl rounded-lg flex justify-center items-center;
+  }
+
+  .delete {
+    @apply uppercase text-lightGrayishOrange flex justify-center items-center bg-keyBackground py-3 px-5 text-lg rounded-lg;
+  }
+}
