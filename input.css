@@ -8,18 +8,18 @@
   }
 
   .diff-keys {
-    @apply flex justify-center items-center  py-3 px-5 uppercase text-xl rounded-lg col-span-2;
+    @apply flex justify-center items-center  py-3 px-5 uppercase text-xl rounded-lg col-span-2  h-[92%] hover:h-full transition-all duration-500;
   }
 
   .number-keys {
-    @apply bg-lightGrayishOrange text-verydarkGrayishBlue py-3 text-3xl rounded-lg flex justify-center items-center md:px-4 md:py-1;
+    @apply bg-lightGrayishOrange text-verydarkGrayishBlue py-3 text-3xl rounded-lg flex justify-center items-center md:px-4 md:py-1 h-[92%] hover:h-full transition-all duration-500;
   }
 
   .delete {
-    @apply uppercase text-lightGrayishOrange flex justify-center items-center bg-keyBackground py-3 px-5 text-lg rounded-lg;
+    @apply uppercase text-lightGrayishOrange flex justify-center items-center bg-keyBackground py-3 px-5 text-lg rounded-lg  h-[92%] hover:h-full transition-all duration-500;
   }
 
   .number-shadow {
-    @apply bg-grayishOrange rounded-lg;
+    @apply bg-grayishOrange rounded-lg hover:cursor-pointer;
   }
 }

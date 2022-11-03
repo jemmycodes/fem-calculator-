@@ -433,6 +433,7 @@ video {
 .diff-keys {
   grid-column: span 2 / span 2;
   display: flex;
+  height: 92%;
   align-items: center;
   justify-content: center;
   border-radius: 0.5rem;
@@ -443,10 +444,18 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
   text-transform: uppercase;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+
+.diff-keys:hover {
+  height: 100%;
 }
 
 .number-keys {
   display: flex;
+  height: 92%;
   align-items: center;
   justify-content: center;
   border-radius: 0.5rem;
@@ -458,6 +467,13 @@ video {
   line-height: 2.25rem;
   --tw-text-opacity: 1;
   color: hsl(221 14% 31% / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+
+.number-keys:hover {
+  height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -471,6 +487,7 @@ video {
 
 .delete {
   display: flex;
+  height: 92%;
   align-items: center;
   justify-content: center;
   border-radius: 0.5rem;
@@ -485,12 +502,23 @@ video {
   text-transform: uppercase;
   --tw-text-opacity: 1;
   color: hsl(30 25% 89% / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+
+.delete:hover {
+  height: 100%;
 }
 
 .number-shadow {
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: hsl(28 16% 65% / var(--tw-bg-opacity));
+}
+
+.number-shadow:hover {
+  cursor: pointer;
 }
 
 *, ::before, ::after {
@@ -650,10 +678,6 @@ video {
   display: grid;
 }
 
-.h-\[95\%\] {
-  height: 95%;
-}
-
 .max-h-fit {
   max-height: -webkit-fit-content;
   max-height: -moz-fit-content;
@@ -729,16 +753,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
 }
 
 .px-2 {

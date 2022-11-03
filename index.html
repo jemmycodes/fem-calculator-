@@ -16,6 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="script.js" defer></script>
     <title>Frontend Mentor | Calculator app</title>
   </head>
   <body>
@@ -27,68 +28,64 @@
           <h1 class="text-White text-3xl">calc</h1>
         </header>
         <section class="screen-box">
-          <h1 class="text-White text-4xl">500,000</h1>
+          <h1 id="screen-text" class="text-White text-4xl">500,000</h1>
         </section>
         <section
           class="bg-toggleBackgroundKeypadBackground p-5 rounded-lg grid grid-cols-4 max-h-fit gap-4"
         >
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">7</div>
+            <div id="number" class="number-keys">7</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">8</div>
+            <div id="number" class="number-keys">8</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">9</div>
+            <div id="number" class="number-keys">9</div>
           </div>
           <div class="number-shadow bg-blueKeyShadow">
-            <div class="delete bg-keyBackground h-[95%]">del</div>
+            <div class="delete bg-keyBackground">del</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">4</div>
+            <div id="number" class="number-keys">4</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">5</div>
+            <div id="number" class="number-keys">5</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">6</div>
+            <div id="number" class="number-keys">6</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">+</div>
+            <div class="number-keys">+</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">1</div>
+            <div id="number" class="number-keys">1</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">2</div>
+            <div id="number" class="number-keys">2</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">3</div>
+            <div id="number" class="number-keys">3</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">-</div>
+            <div class="number-keys">-</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">.</div>
+            <div class="number-keys">.</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">0</div>
+            <div id="number" class="number-keys">0</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">/</div>
+            <div class="number-keys">/</div>
           </div>
           <div class="number-shadow">
-            <div class="number-keys h-[95%]">x</div>
+            <div class="number-keys">x</div>
           </div>
           <div class="number-shadow col-span-2 bg-blueKeyShadow">
-            <div class="diff-keys text-white h-[95%] bg-keyBackground">
-              reset
-            </div>
+            <div class="diff-keys text-white bg-keyBackground">reset</div>
           </div>
           <div class="number-shadow col-span-2 bg-keyShadow">
-            <div class="diff-keys bg-keyBackgroundToggle h-[95%] text-white">
-              =
-            </div>
+            <div class="diff-keys bg-keyBackgroundToggle text-white">=</div>
           </div>
         </section>
       </section>
